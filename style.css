@@ -1057,4 +1057,24 @@ button {
         font-size: 10px;
         line-height: 1.7;
     }
+}/* =========================================
+   10.3.1.10 - DISCLAIMER
+========================================= */
+
+.footer-disclaimer {
+    margin-top: 12px;
+    font-size: 11px;
+    line-height: 1.6;
+    color: #888;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .footer-disclaimer {
+        max-width: 320px;
+        margin: 12px auto 0;
+        padding: 0 15px;
+        font-size: 10px;
+        line-height: 1.6;
+    }
 }
